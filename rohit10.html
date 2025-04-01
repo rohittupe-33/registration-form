@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dy9</title>
+</head>
+<style>
+    body{
+        background: url(./Amazon.png);
+
+        background-position: cover;
+
+        
+    }
+    form{
+        width: 300px;
+
+
+    }
+    input{
+        margin: 5px;
+    }
+    h1,p ,label{
+        text-align: center;
+        color:black;
+        background-color: white;
+    
+    }  
+    form{
+        margin: auto;
+    }      
+    
+</style>
+<body>
+    <h1 style="border-width: 8px;border-style: double;border-color: blueviolet;"> Ragistration Form</h1>
+    <u><p>fill the form with correct information</p></u>
+    <form action="server url">
+    
+
+    
+        <fieldset>
+    <label for="firstname">firstname:</label>
+    <input type="text" id="firstnme" name="firstname" required>
+    <label for="Lastname">Lastname:</label>
+    <input type="text" id="lastname" name="lstnme" required>
+    <label for="password">password:</label>
+    <input type="password" name="" id="password" name="password" min="8" max="20" required>
+    <label for="number">number:</label>
+    <input type="number" id="number" name="number" required>
+    <label for="gender">gender</label>
+    <input type="radio" id="male" name="male" required >male
+    <input type="radio" id="femle" name="female" required>female
+    <input type="radio" id="other" name="gender" required>other
+    <label for="date">date</label>
+    <input type="date" id="birthdy" name="birthdy" required><br><br>
+    <label for="fille"> upload picture</label>
+    <input type="file" id="upload picture" name="upload picture" required>
+    <input type="submit" value="submit">
+    </fieldset>
+    </form>
+</body>
+</html>
